@@ -8,10 +8,8 @@
 - [Getting Started](#getting-started)
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
-- [Usage](#usage)
 - [Contributing](#contributing)
 - [License](#license)
-- [Acknowledgments](#acknowledgments)
 
 
 ## Features
@@ -49,27 +47,14 @@ Before you begin, ensure you have met the following requirements:
    git clone https://github.com/YourUsername/Dental-Clinic-Appointment-System.git
 
    ```
-```
+   ```
     $db_host = 'your_database_host';
     $db_username = 'your_database_username';
     $db_password = 'your_database_password';
-    $db_name = 'your_database_name'
-```
+    $db_name = 'your_database_name'```
 
 
 
-
-**7. Usage:**
-   - Explain how users can use your project, including any user guides or examples.
-
-```markdown
-
-```
-##Usage
-
-- **Patients**: Create an account, log in, book appointments, and manage your appointments.
-
-- **Admins**: Access the admin dashboard using `/backend/Admin/login.php` to manage appointments and services.
 
 
 
