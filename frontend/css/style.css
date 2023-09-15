@@ -1,0 +1,390 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+header {
+    background-color: #fff;
+    color: #262626;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+}
+
+nav {
+    background-color: #fff;
+    color: #262626;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+nav h1 {
+    margin: 0;
+    padding-left: 40px;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    margin: 0 10px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 8px 15px;
+    border: 1px solid #262626;
+    border-radius: 4px;
+    color: #262626;
+}
+
+nav a:hover {
+    background-color: #262626;
+    color: #fff;
+}
+
+
+main {
+    flex: 1;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    font-size: 20px;
+    width: 100%;
+    bottom: 0;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto; 
+}
+
+.login-section {
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 60px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-section h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #007bff;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-form label {
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.login-form button {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.login-form button:hover {
+    background-color: #0056b3;
+}
+
+.login-form p {
+    text-align: center;
+    margin-top: 10px;
+    color: #333;
+}
+
+.login-form p a {
+    color: #007bff;
+}
+
+.signup-section {
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 80px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.signup-section h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #007bff;
+}
+
+.signup-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.signup-form label {
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.signup-form input[type="text"],
+.signup-form input[type="email"],
+.signup-form input[type="password"] {
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.signup-form button {
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.signup-form button:hover {
+    background-color: #0056b3;
+}
+
+.signup-form p {
+    text-align: center;
+    margin-top: 10px;
+    color: #333;
+}
+
+.signup-form p a {
+    color: #007bff;
+}
+
+.slider-container {
+    width: 1900px;
+    height: 400px;
+    margin: 0 auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    overflow: hidden;
+    position: relative;
+}
+
+.slider-images {
+    width: 3000px; 
+    animation: slide 15s infinite;
+    position: absolute;
+}
+
+@keyframes slide {
+    0% { left: 0; }
+    20% { left: -600px; }
+    40% { left: -1200px; }
+    60% { left: -1800px; }
+    80% { left: -2400px; }
+    100% { left: -3000px; }
+}
+
+.slider-image {
+    width: 900px;
+    height: 400px;
+    float: left;
+}
+
+.appointment-form {
+    width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.appointment-form h3 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.appointment-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.appointment-form input[type="text"],
+.appointment-form input[type="tel"],
+.appointment-form input[type="date"],
+.appointment-form input[type="time"],
+.appointment-form textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.appointment-form textarea {
+    resize: vertical;
+}
+
+.appointment-form input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+.appointment-form button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.appointment-form button[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.appointment-form p.error-message {
+    color: #ff0000;
+    margin: 10px 0;
+}
+table {
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid #000000; 
+}
+
+th {
+    background-color: #ffffff;
+}
+/* Profile page styles */
+section.dashboard-section {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+form {
+    display: grid;
+    grid-gap: 10px;
+    margin-bottom: 20px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #000000;
+    border-radius: 5px;
+}
+
+button.green-button,
+button.red-button {
+    padding: 8px 20px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button.green-button {
+    background-color: #4caf50;
+}
+
+button.red-button {
+    background-color: #f44336;
+}
+
+.success-message,
+.error-message {
+    margin-top: 10px;
+    padding: 8px;
+    background-color: #e0ffe0;
+    border: 1px solid #a3d2a3;
+    border-radius: 5px;
+}
+
+.error-message {
+    background-color: #ffe0e0;
+    border: 1px solid #d2a3a3;
+}
+
+
+
+.table_1{
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 600px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.table_1{
+    border-radius: 10px;
+}
+.table_1 tr th{
+    background: #333;
+    color: #ffffff;
+}

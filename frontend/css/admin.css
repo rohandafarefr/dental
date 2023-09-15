@@ -1,0 +1,98 @@
+body, h1, h2, h3, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+}
+
+.main {
+  width: 100%;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+.dashboard-section h2 {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.admin-button-container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 20px;
+  justify-content: center;
+  align-content: space-around;
+}
+
+.admin-button {
+  display: flex;
+  flex-direction: row;
+  padding: 15px 30px;
+  background-color: #4285F4;
+  color: #fff;
+  text-decoration: none;
+  text-align: center;
+  font-size: 18px;
+  border: none;
+  border-radius: 30px;
+  margin: 10px;
+  cursor: pointer;
+  align-items: center;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.2s ease-in-out, transform 0.2s ease-in-out;
+}
+
+.admin-button:hover {
+  background-color: #3367D6;
+  transform: translateY(-2px);
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.1);
+}
+
+.admin-button:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.total-appointments-section, .total-appointments-today-section {
+  text-align: center;
+  width: 100%;
+  margin: 20px;
+  padding: 20px;
+  background-color: #eef7ff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.total-appointments-section h3, .total-appointments-today-section h3 {
+  font-size: 24px;
+  margin-bottom: 15px;
+  color: #555555;
+}
+
+.total-appointments-section p, .total-appointments-today-section p {
+  font-size: 28px;
+  font-weight: bold;
+  color: #333333;
+}
+@media (max-width: 768px) {
+  .admin-button {
+      display: block;
+      width: 100%;
+  }
+
+  .total-appointments-section, .total-appointments-today-section {
+      margin: 10px;
+  }
+}
+.dash-con{
+  display: flex;
+  justify-content: row;
+}
+h2 .admin-title{
+  margin-top: 30px;             
+}
