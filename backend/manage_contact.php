@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="../frontend/css/admin.css">
 </head>
 <body>
-    <?php include '../frontend/Admin/header.php'; ?>
+    <?php include 'header.php'; ?>
     <main>
         <section class="dashboard-section">
             <h2>Manage Contact Form Submissions</h2>

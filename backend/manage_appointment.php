@@ -11,7 +11,7 @@ $result_appointments = mysqli_query($conn, $sql_appointments);
         <link rel="stylesheet" href="../frontend/css/style.css">
     </head>
 <body>
-    <?php include '../frontend/Admin/header.php'; ?>
+    <?php include 'header.php'; ?>
     <main>
         <section class="dashboard-section">
             <h2 class="admin-title">Appointment Management</h2>

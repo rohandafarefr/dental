@@ -157,7 +157,7 @@
     </style>
 </head>
 <body>
-    <?php include '../frontend/Admin/header.php'?>
+    <?php include 'header.php'?>
     <h2>Manage Users</h2>
     <table>
         <tr>

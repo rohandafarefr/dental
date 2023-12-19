@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="../frontend/css/admin_dashboard.css">
 </head>
 <body>
-    <?php include '../frontend/Admin/header.php'; ?>
+    <?php include 'header.php'; ?>
 
     <main>
         <section class="container">

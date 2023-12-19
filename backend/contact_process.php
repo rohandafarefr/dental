@@ -10,10 +10,10 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $result_insert_contact = mysqli_query($conn, $sql_insert_contact);
 
     if ($result_insert_contact) {
-        header('Location: contact.php?success=1');
+        header('Location: ../index.php?success=1');
         exit;
     } else {
-        header('Location: contact.php?error=1');
+        header('Location: ../index.php?error=1');
         exit;
     }
 }
