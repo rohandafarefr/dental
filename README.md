@@ -1,6 +1,6 @@
 # Dental Clinic Appointment Booking System
 
-**Dental Clinic Appointment Booking System** is a web-based application designed to streamline the process of booking dental appointments for patients.
+**Dental Clinic Appointment Booking System** is a web-based application designed to streamline the process of booking dental appointments for patients. 
 
 ## Table of Contents
 
